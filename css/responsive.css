@@ -1,0 +1,177 @@
+/* Responsive Style (Mobile & tablet) */
+
+
+
+@media (min-width:768px) and (max-width:1024px) { 
+
+.menunav .top-bar .name { height: auto; }
+
+.menunav .top-bar-section ul li a { padding: 0 8px !important;}
+
+.home { background: none !important;}
+
+.pagecontent .sliderBlock {  height: 275px;  }
+
+/* child Work */
+.child-menu ul li a {  font-size: 13px;  padding: 5px;}
+
+.subActive a, .subActive {  background: url("../img/child_mOver.png") no-repeat scroll -30px 7px rgba(0, 0, 0, 0);}
+.child-menu ul li:hover, .child-menu ul li:hover a {
+  background: url("../img/child_mOver.png") no-repeat scroll -30px 7px rgba(0, 0, 0, 0);
+}
+.sub-child-block .subchildTitle {  height: 37px;}
+.sub-child-block .subchildcontent {  line-height: 17px;}
+
+}
+
+@media (max-width: 768px) {
+
+.home { background: none !important;}
+
+header .menunav {  padding: 8px 0;}
+
+
+
+/* Slider */
+
+.slider .slide-cont {  padding: 15px 20px;}
+
+.slider .slide-cont h2 {  font-size: 20px;}
+
+.slider .slide-cont p {  font-size: 12px;}
+
+.bx-controls-direction {  height: 95.5%; right: 2px;}
+
+.bx-has-controls-direction {  right: 9px;  width: 5%;}
+
+.pagecontent .sliderBlock {  height: 275px;  }
+
+/* child Work */
+.child-menu ul li a {  font-size: 11px;  padding: 5px;}
+
+.subActive a, .subActive {  background: url("../img/child_mOver.png") no-repeat scroll -89px 7px rgba(0, 0, 0, 0);}
+.child-menu ul li:hover, .child-menu ul li:hover a {
+  background: url("../img/child_mOver.png") no-repeat scroll -89px 7px rgba(0, 0, 0, 0);
+}
+.sub-child-block .subchildTitle {  height: 37px;}
+.sub-child-block .subchildcontent {  line-height: 17px;}
+.content-area .childPage {  height: 285px;}
+.childPage .child-menu {  height: 283px;}
+
+/*footer*/
+
+.pagefooter footer {  height: 95px;  padding: 10px 0;}
+
+footer .menunav .top-bar-section ul li a {  padding: 0 10px !important;}
+.pagefooter .foottop h2 {  font-size: 14px; }
+
+
+}
+
+
+
+@media (max-width: 400px) {
+
+.home { background: none !important;}
+
+/* Menu Css*/
+
+.menunav .top-bar { background:#222222;}
+
+.menunav .top-bar-section ul li { background:#222222;}
+
+.menunav .top-bar-section li:not(.has-form) a:not(.button) {	background:#222222;}
+
+.menunav .top-bar-section li:not(.has-form) a:hover:not(.button) { background:#999; color:#fff; }
+
+.menunav .top-bar-section li.active:not(.has-form) a:hover:not(.button) {  background: #999;  color:#fff; }
+
+.menunav .top-bar-section li.active:not(.has-form) a:not(.button) {  background: #999;  }
+
+.menunav .top-bar-section ul li a{ color:#fff;}
+
+.menunav .top-bar-section ul li.active > a {	background: #222222; color:#fff !important; }
+
+
+
+
+
+/* slider */
+
+
+.slider .slide-cont {  padding: 5px 35px;  right: 0px;  width: 100%; opacity: 0.7; }
+
+.slider .slide-cont h2 {  font-size: 14px;}
+
+.slider .slide-cont p {  font-size: 9px;}
+
+.bx-wrapper .bx-pager {  display: none;}
+
+.bx-has-controls-direction {  right: auto;  width: auto;}
+
+.bx-has-controls-direction {  height: auto;  position: initial;}
+
+.bx-controls-direction {  position: inherit;}
+
+.bx-wrapper .bx-controls-direction a {  top: 40px !important;}
+
+.bx-wrapper .bx-next {
+
+  background: url("../bxslider/images/slider-right-pagination.png") no-repeat scroll 0 0 !important;
+
+  left: auto !important;
+
+    right: 5px;
+
+}
+
+.bx-wrapper .bx-next:hover{
+
+  background: url("../bxslider/images/slider-right-pagination-hov.png") no-repeat scroll 0 0 !important;
+
+}
+
+.bx-wrapper .bx-prev {
+
+  background: url("../bxslider/images/slider-left-pagination.png") no-repeat scroll 0 0 !important;
+
+}
+
+.bx-wrapper .bx-prev:hover{
+
+  background: url("../bxslider/images/slider-left-pagination-hov.png") no-repeat scroll 0 0 !important;
+
+}
+.pagecontent .sliderBlock {  height: 190px;}
+
+/* child section */
+.content-area .childPage {  border:none; margin: 0 -7px 15px -5px;}
+.subActive a, .subActive {  background: url("../img/child_mOver1.png") no-repeat scroll 0 7px rgba(0, 0, 0, 0);}
+.child-menu ul li:hover, .child-menu ul li:hover a {
+  background: url("../img/child_mOver1.png") no-repeat scroll 0 7px rgba(0, 0, 0, 0);
+}
+.child-menu ul li a {  font-size: 15px;}
+.childPage .child-menu {
+  background: none repeat scroll 0 0 #ebebeb;
+  height: auto;
+}
+
+/*Footer*/
+
+footer .flogo { display:none;}
+
+footer .menunav{ display:none;}
+
+footer .copyright {  text-align: center; padding:15px 10px;}
+
+.pagefooter footer {  height: 75px;  padding: 10px 0;}
+.pagefooter .foottop h2 {  font-size: 12px;}
+
+}
+@media (min-width:300px) and (max-width:399px) { 
+.subActive a, .subActive {  background: url("../img/child_mOver1.png") no-repeat scroll -39px 7px rgba(0, 0, 0, 0);}
+.child-menu ul li:hover, .child-menu ul li:hover a {
+  background: url("../img/child_mOver1.png") no-repeat scroll -39px 7px rgba(0, 0, 0, 0);
+}
+
+}
